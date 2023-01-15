@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			responsive-min
+		</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<link rel="icon" type="image/x-icon" href="https://cdn0.iconfinder.com/data/icons/social-part-2/128/__63-64.png">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			body{
+				background-color:black;
+			}
+			.container{
+				width:1280px;
+				padding:7.5px 0px;
+				background-color:#fff;
+				margin:0px auto;
+				flex-wrap:wrap;
+				display:flex;
+				justify-content:space-between;
+			}
+			.inner-div{
+				width:308.75px;
+				background-color:#fcf3cf;
+				border-radius:20px;
+				padding-bottom:15px;
+				margin:7.5px 0px;
+			}
+			.img{
+				width:100%;
+				height:310px;
+				border-top-right-radius:20px;
+				border-top-left-radius:20px;
+			}
+			.heading{
+				font-size:30px;
+				text-align:center;
+				text-decoration:underline;
+				padding:15px 0px;
+			}
+			.discription{
+				font-size:20px;
+				text-align:center;
+				padding-bottom:15px;
+				margin:0px 15px;
+			}
+			.btn{
+				margin:0px auto;
+				cursor:pointer;
+				padding-bottom:10px;
+				padding-top:10px;
+				width:100px;
+				color:white;
+				background-color:red;
+				border-radius:20px;
+				text-align:center;
+				font-size:18px;
+				border:1px solid red;
+			}
+			.btn:hover{
+				background-color:#d4e6f1;
+				color:black;
+				border:1px solid black;
+			}
+
+
+			@media only screen and (min-width:0px){
+				.container{
+					max-width:100%;
+					padding:7.5px 0px;
+					background-color:#fff;
+					margin:0px auto;
+					display:flex;
+					justify-content:space-between;
+				}
+				.inner-div{
+					width:100%;
+					background-color:#fcf3cf;
+					border-radius:20px;
+					padding-bottom:15px;
+					margin:7.5px 0px;
+				}
+				.img{
+					width:100%;
+					height:310px;
+					border-top-right-radius:20px;
+					border-top-left-radius:20px;
+				}
+				.heading{
+					font-size:30px;
+					text-align:center;
+					text-decoration:underline;
+					padding:15px 0px;
+				}
+				.discription{
+					font-size:20px;
+					text-align:center;
+					padding-bottom:15px;
+					margin:0px 15px;
+				}
+				.btn{
+					margin:0px auto;
+					cursor:pointer;
+					padding-bottom:10px;
+					padding-top:10px;
+					width:100px;
+					color:white;
+					background-color:red;
+					border-radius:20px;
+					text-align:center;
+					font-size:18px;
+					border:1px solid red;
+				}
+				.btn:hover{
+					background-color:#d4e6f1;
+					color:black;
+					border:1px solid black;
+				}
+			}
+			
+			
+			@media only screen and (min-width:420px){
+				.container{
+					max-width:100%;
+					padding:7.5px 0px;
+					background-color:#fff;
+					margin:0px auto;
+					display:flex;
+					justify-content:space-between;
+				}
+				.inner-div{
+					width:100%;
+					background-color:#fcf3cf;
+					border-radius:20px;
+					padding-bottom:15px;
+					margin:7.5px 0px;
+				}
+				.img{
+					width:100%;
+					height:310px;
+					border-top-right-radius:20px;
+					border-top-left-radius:20px;
+				}
+				.heading{
+					font-size:30px;
+					text-align:center;
+					text-decoration:underline;
+					padding:15px 0px;
+				}
+				.discription{
+					font-size:20px;
+					text-align:center;
+					padding-bottom:15px;
+					margin:0px 15px;
+				}
+				.btn{
+					margin:0px auto;
+					cursor:pointer;
+					padding-bottom:10px;
+					padding-top:10px;
+					width:100px;
+					color:white;
+					background-color:red;
+					border-radius:20px;
+					text-align:center;
+					font-size:18px;
+					border:1px solid red;
+				}
+				.btn:hover{
+					background-color:#d4e6f1;
+					color:black;
+					border:1px solid black;
+				}
+			}
+			
+			@media only screen and (min-width: 576px){
+				.container{
+					max-width:100%;
+					padding:7.5px 0px;
+					background-color:#fff;
+					margin:0px auto;
+					display:flex;
+					justify-content:space-between;
+				}
+				.inner-div{
+					width:49%;
+					background-color:#fcf3cf;
+					border-radius:20px;
+					padding-bottom:15px;
+					margin:7.5px 0px;
+				}
+				.img{
+					width:100%;
+					height:310px;
+					border-top-right-radius:20px;
+					border-top-left-radius:20px;
+				}
+				.heading{
+					font-size:25px;
+					text-align:center;
+					text-decoration:underline;
+					padding:15px 0px;
+				}
+				.discription{
+					font-size:18px;
+					text-align:center;
+					padding-bottom:15px;
+					margin:0px 15px;
+				}
+				.btn{
+					margin:0px auto;
+					cursor:pointer;
+					padding-bottom:10px;
+					padding-top:10px;
+					width:100px;
+					color:white;
+					background-color:red;
+					border-radius:20px;
+					text-align:center;
+					font-size:18px;
+					border:1px solid red;
+				}
+				.btn:hover{
+					background-color:#d4e6f1;
+					color:black;
+					border:1px solid black;
+				}
+			}
+			
+				@media only screen and (min-width: 768px){
+				.container{
+					max-width:100%;
+					padding:7.5px 0px;
+					background-color:#fff;
+					margin:0px auto;
+					display:flex;
+					justify-content:space-between;
+				}
+				.inner-div{
+					width:32.1%;
+					background-color:#fcf3cf;
+					border-radius:20px;
+					padding-bottom:15px;
+					margin:7.5px 0px;
+				}
+				.img{
+					width:100%;
+					height:310px;
+					border-top-right-radius:20px;
+					border-top-left-radius:20px;
+				}
+				.heading{
+					font-size:25px;
+					text-align:center;
+					text-decoration:underline;
+					padding:15px 0px;
+				}
+				.discription{
+					font-size:18px;
+					text-align:center;
+					padding-bottom:15px;
+					margin:0px 15px;
+				}
+				.btn{
+					margin:0px auto;
+					cursor:pointer;
+					padding-bottom:10px;
+					padding-top:10px;
+					width:100px;
+					color:white;
+					background-color:red;
+					border-radius:20px;
+					text-align:center;
+					font-size:18px;
+					border:1px solid red;
+				}
+				.btn:hover{
+					background-color:#d4e6f1;
+					color:black;
+					border:1px solid black;
+				}
+			}
+			
+			@media only screen and (min-width: 1024px){
+				.container{
+					max-width:100%;
+					padding:7.5px 0px;
+					background-color:#fff;
+					margin:0px auto;
+					display:flex;
+					justify-content:space-between;
+				}
+				.inner-div{
+					width:24.1%;
+					background-color:#fcf3cf;
+					border-radius:20px;
+					padding-bottom:15px;
+					margin:7.5px 0px;
+				}
+				.img{
+					width:100%;
+					height:310px;
+					border-top-right-radius:20px;
+					border-top-left-radius:20px;
+				}
+				.heading{
+					font-size:25px;
+					text-align:center;
+					text-decoration:underline;
+					padding:15px 0px;
+				}
+				.discription{
+					font-size:18px;
+					text-align:center;
+					padding-bottom:15px;
+					margin:0px 15px;
+				}
+				.btn{
+					margin:0px auto;
+					cursor:pointer;
+					padding-bottom:10px;
+					padding-top:10px;
+					width:100px;
+					color:white;
+					background-color:red;
+					border-radius:20px;
+					text-align:center;
+					font-size:18px;
+					border:1px solid red;
+				}
+				.btn:hover{
+					background-color:#d4e6f1;
+					color:black;
+					border:1px solid black;
+				}
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="inner-div">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRgFq8qQxf6EGPPXD_8H54IFtflS9nDwpX4w&usqp=CAU" class="img"/>
+				<p class="heading"> M.S.DHONI</p>
+				<p class="discription">
+					COOL CAPTAIN Mahendra Singh Dhoni is an Indian former international cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He is also the current captain of CSK in the IPL.<br />TEAM INDIA
+				</p>
+				<div class="btn">
+					read more..
+				</div>
+			</div>
+			<div class="inner-div">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-5W2Maj7kQFJb_0zOdr30p8ZDpQ24OdA3Og&usqp=CAU" class="img"/>
+				<p class="heading">VIRAT KOHOLI</p>
+				<p class="discription">
+					Virat Kohli is an Indian international cricketer and former captain of the India national cricket team. Widely regarded as one of the greatest batsmen of all time, Kohli plays as a right-handed batsman for Royal Challengers Bangalore in the IPL and for domestic cricket.<br />TEAM INDIA
+				</p>
+				<div class="btn">
+					read more..
+				</div>
+			</div>
+			<div class="inner-div">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrJUD3PBFdzWGsifv5v1-mvk4Keou7pyZZXw&usqp=CAU" class="img"/>
+				<p class="heading">HARDIK PANDYA</p>
+				<p class="discription">
+					Hardik Himanshu Pandya is an Indian international cricketer who plays for the Indian cricket team in ODI and Twenty20 International format as an All-rounder. Pandya also captained India for 3 matches in the absence of senior players. Pandya has acted as stand-in captain in T20Is TEAM INDIA.
+				</p>
+				<div class="btn">
+					read more..
+				</div>
+			</div>
+			<div class="inner-div">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDf5xBT1wmtGP9PIksK4NOtbMHaqZ9tRbuw&usqp=CAU" class="img"/>
+				<p class="heading">K.L.RAHUL</p>
+				<p class="discription">
+					Kannanur Lokesh Rahul is an Indian international cricketer who currently is the vice-captain of the Indian cricket team in all formats. He is a Right-handed batter and wicketkeeper. He plays for Karnataka in domestic cricket and captains Lucknow Super Giants in the IPL.<br />TEAM INDIA
+				</p>
+				<div class="btn">
+					read more..
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
